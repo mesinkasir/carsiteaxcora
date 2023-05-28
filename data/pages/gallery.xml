@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sun, 28 May 2023 12:58:17 +0700</pubDate><title><![CDATA[Gallery]]></title><url><![CDATA[gallery]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div class=&quot;ratio ratio-16x9&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/b1izevRg3O4&quot; title=&quot;video&quot; class=&quot;rounded shadow-sm mb-3&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ini adalah contoh halaman gallery untuk website otomotif mu.&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[axcora]]></author></item>
