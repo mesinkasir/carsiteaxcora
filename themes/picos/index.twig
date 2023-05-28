@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="no-js" data-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    {% if meta.description %}
+        <meta name="description" content="{{ meta.description|striptags }}" />
+    {% endif %}
+    {% if meta.robots %}
+        <meta name="robots" content="{{ meta.robots }}" />
+    {% endif %}
+
+    {% if current_page %}
+        <link rel="canonical" href="{{ current_page.url }}" />
+    {% endif %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="{{ theme_url }}/css/fontello.css" type="text/css" />
+
+</head>
+<body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+
+ <div class="hero">
+      <nav class="container-fluid">
+        <ul>
+          <li><a href="{{ "index"|link }}" class="contrast"><strong> {% if pages["_meta"].meta.logo %}
+                <div id="title logo"{{ pages["_meta"].meta.tagline ? ' class="tagline"' }} aria-hidden="true">
+                        {{ site_title }}
+                                   </div>
+            {% endif %}</strong></a></li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">Menu</summary>
+              <ul role="listbox">                  
+              {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                        <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                            <a href="{{ page.url }}">&nbsp; <i class="fa-solid fa-arrow-right-long"></i>&nbsp;{{ page.title }} &nbsp;</a>
+                        </li>
+                    {% endfor %}
+              </ul>
+            </details>
+          </li>
+         
+        </ul>
+      </nav>
+      
+            <figure>
+            <img width="100%" src="{{ meta.cover }}" alt="{{ meta.title }}">
+          </figure>
+      
+      <header class="container">
+        <hgroup>
+          <h1><a href="{{ "index"|link }}">{{ site_title }}</a></h1>
+          <h2>{{ pages["_meta"].meta.tagline|markdown }}</h2>
+        </hgroup>
+      </header>
+    </div>
+
+
+        <main id="main" class="container">
+            <div class="grid">
+      <section>
+            {{ content }}
+            </section>
+            <aside>
+                {% for news in pages["_meta"].meta.news %}
+
+          <p>
+          <a href="{{ "index"|link }}{{ news.url }}"><img width="100%" src="{{ news.image }}" alt="{{ news.title }}"></a>
+            <a href="{{ "index"|link }}{{ news.url }}">{{ news.title }}</a><br>
+            <small>{{ news.desc }}</small>
+          </p>
+
+         
+          {% endfor %}
+        </aside>
+            
+            </div>
+            
+            <div class="grid">
+                {% for promo in pages["_meta"].meta.promo %}
+            <div>
+            <a href="{{ "index"|link }}{{ promo.url }}" ><img src="{{ promo.image }}" alt="{{ promo.title }}"></a>
+            <a href="{{ "index"|link }}{{ promo.url }}" >{{ promo.title }}</a><br>
+            <small>{{ promo.desc }}</small>
+          </div>
+          {% endfor %}
+          </div>
+         
+       
+  </div>
+  
+  
+       </main>
+
+    <div id="footer">
+        <div class="container">
+            <div class="social">
+                <center>
+                {% for social in pages["_meta"].meta.social %}
+                    <a href="{{ social.url }}" title="{{ social.title }}" class="contrast" role="button">
+                        <span class="icon-{{ social.icon }}" aria-hidden="true"></span>
+                        <span class="sr-only">{{ social.title }}</span>
+                    </a>
+                {% endfor %}
+                </center>
+            </div>
+            <p><center><small>
+                <a href="{{ "index"|link }}">{{ site_title }}</a> made with 💘 by <a href="https://axcora.com/getaxcoracms">axcora</a> .
+            <br/>developer <a href="https://www.fiverr.com/creativitas">creativitas</a>    </small></center>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+site_title: Gran Limousine
+base_url: ~                                                    
+rewrite_url: ~                    
+debug: ~                          
+timezone: ~                       
+locale: ~                         
+theme: picos                      
+themes_url: ~                                           
+theme_config:                     
+    widescreen: false             
+twig_config:                      
+    autoescape: html              
+    strict_variables: false       
+    charset: utf-8                
+    debug: ~                      
+    cache: false                  
+    auto_reload: ~                
+date_format: %D %T                
+pages_order_by_meta: author       
+pages_order_by: alpha             
+pages_order: asc                  
+content_dir: ~                    
+content_ext: .md                  
+content_config:                   
+    extra: true                   
+    breaks: false                 
+    escape: false                 
+    auto_urls: true               
+assets_dir: assets/               
+assets_url: ~                     
+plugins_url: ~                    
+DummyPlugin.enabled: false        
+my_custom_setting: Hello World!   

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js"  data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <title>AxcoraPico Login</title>
+  <meta name="robots" content="noindex, nofollow" />
+		<link rel="icon" type="image/x-icon" href="{{ base_url }}/img/websitefree.png" />
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="{{ theme_url }}/css/fontello.css" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        </div>
+        <main class="container">
+            
+       <div class="grid">
+  <div></div>
+  <div>
+        <img class="img-fluid" src="https://axcora.com/img/updates/axcora-pembuatan-website.gif"/>
+                            <hr/>
+  <form id="login-form" method="post" action="">
+    {% if login_error %}<p class="error">{{ login_error }}</p>{% endif %}
+    <div>
+        
+      <label for="password">Password:</label>
+    </div>
+    <div>
+      <input type="password" name="password" value="axcora" id="password" autofocus/><br/>
+      <input type="submit" value="Login" />
+      <div class="text-center">
+      <a href="{{ base_url }}">Home page</a>
+      </div>
+    </div>
+  </form>
+  </div>
+  <div></div>
+</div>
+</main>
+
+</body>
+</html>
