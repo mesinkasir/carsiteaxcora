@@ -1,0 +1,10 @@
+{
+	"author": "TinyMCE",
+	"email": "",
+	"website": "https://www.tinymce.com",
+	"version": "5.10.5",
+	"releaseDate": "2022-06-01",
+	"license": "LGPL 2.1",
+	"compatible": "3.14",
+	"notes": ""
+}

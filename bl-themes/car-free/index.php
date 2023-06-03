@@ -1,0 +1,1 @@
+<?php include(THEME_DIR_PHP.'widget/head.php'); ?><?php include(THEME_DIR_PHP.'widget/body.php'); ?>

@@ -1,0 +1,1 @@
+<?php include(THEME_DIR_PHP.'widget/pages.php'); ?><?php include(THEME_DIR_PHP.'widget/desc.php'); ?><?php include(THEME_DIR_PHP.'widget/post.php'); ?><?php include(THEME_DIR_PHP.'widget/plugins.php'); ?>

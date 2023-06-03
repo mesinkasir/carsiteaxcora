@@ -1,0 +1,9 @@
+{
+	"plugin-data":
+	{
+		"name": "Tailwind Static Pages",
+		"description": "Tailwind Navigation menu with static pages."
+	},
+	"home-link": "Home link",
+	"show-the-home-link-on-the-sidebar": "Show the home link on the sidebar."
+}

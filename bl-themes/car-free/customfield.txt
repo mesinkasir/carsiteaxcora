@@ -1,0 +1,487 @@
+{
+    "intro": {
+        "type": "string",
+        "label": "Intro",
+        "tip": "Insert intro title"
+    },
+    "intro_txt": {
+        "type": "string",
+        "label": "Intro Text",
+        "tip": "Insert intro text"
+    },
+    "intro_banner": {
+        "type": "string",
+        "label": "Intro Banner",
+        "tip": "Insert URL Image intro banner"
+    },
+    "feature": {
+        "type": "string",
+        "label": "Feature title",
+        "tip": "Insert feature title"
+    },
+    "f1": {
+        "type": "string",
+        "label": "Feature 1 title",
+        "tip": "Insert feature 1 title"
+    },
+    "f1_txt": {
+        "type": "string",
+        "label": "Feature 1 description",
+        "tip": "Insert feature 1 description"
+    },
+    "f1_img": {
+        "type": "string",
+        "label": "Feature 1 image",
+        "tip": "Insert feature 1 URL image"
+    },
+    "f2": {
+        "type": "string",
+        "label": "Feature 2 title",
+        "tip": "Insert feature 2 title"
+    },
+    "f2_txt": {
+        "type": "string",
+        "label": "Feature 2 description",
+        "tip": "Insert feature 2 description"
+    },
+    "f2_img": {
+        "type": "string",
+        "label": "Feature 2 image",
+        "tip": "Insert feature 2 URL image"
+    },
+    "f3": {
+        "type": "string",
+        "label": "Feature 3 title",
+        "tip": "Insert feature 3 title"
+    },
+    "f3_txt": {
+        "type": "string",
+        "label": "Feature 3 description",
+        "tip": "Insert feature 3 description"
+    },
+    "f3_img": {
+        "type": "string",
+        "label": "Feature 3 image",
+        "tip": "Insert feature 3 URL image"
+    },
+    "project": {
+        "type": "string",
+        "label": "Project Title",
+        "tip": "Insert project title"
+    },
+    "p1": {
+        "type": "string",
+        "label": "Project 1 image",
+        "tip": "Insert project 1 URL image"
+    },
+    "p2": {
+        "type": "string",
+        "label": "Project 2 image",
+        "tip": "Insert project 2 URL image"
+    },
+    "p3": {
+        "type": "string",
+        "label": "Project 3 image",
+        "tip": "Insert project 3 URL image"
+    },
+    "p4": {
+        "type": "string",
+        "label": "Project 4 image",
+        "tip": "Insert project 4 URL image"
+    },
+    "why": {
+        "type": "string",
+        "label": "Why Info",
+        "tip": "Insert why info text"
+    },
+    "w1": {
+        "type": "string",
+        "label": "Why 1 title",
+        "tip": "Insert why 1 title"
+    },
+    "w1_txt": {
+        "type": "string",
+        "label": "Why 1 description",
+        "tip": "Insert why 1 description"
+    },
+    "w1_img": {
+        "type": "string",
+        "label": "Why 1 image",
+        "tip": "Insert why 1 URL image"
+    },
+    "w2": {
+        "type": "string",
+        "label": "Why 1 title",
+        "tip": "Insert why 1 title"
+    },
+    "w2_txt": {
+        "type": "string",
+        "label": "Why 2 description",
+        "tip": "Insert why 2 description"
+    },
+    "w2_img": {
+        "type": "string",
+        "label": "Why 2 image",
+        "tip": "Insert why 2 URL image"
+    },
+    "w3": {
+        "type": "string",
+        "label": "Why 3 title",
+        "tip": "Insert why 3 title"
+    },
+    "w3_txt": {
+        "type": "string",
+        "label": "Why 3 description",
+        "tip": "Insert why 3 description"
+    },
+    "w3_img": {
+        "type": "string",
+        "label": "Why 3 image",
+        "tip": "Insert why 3 URL image"
+    },
+    "w4": {
+        "type": "string",
+        "label": "Why 4 title",
+        "tip": "Insert why 4 title"
+    },
+    "w4_txt": {
+        "type": "string",
+        "label": "Why 4 description",
+        "tip": "Insert why 4 description"
+    },
+    "w4_img": {
+        "type": "string",
+        "label": "Why 4 image",
+        "tip": "Insert why 4 URL image"
+    },
+    "promo": {
+        "type": "string",
+        "label": "Promo title",
+        "tip": "Insert promo title"
+    },
+    "promo_txt": {
+        "type": "string",
+        "label": "Promo description",
+        "tip": "Insert promo description"
+    },
+    "content": {
+        "type": "string",
+        "label": "Content title",
+        "tip": "Insert content title"
+    },
+    "content_desc": {
+        "type": "string",
+        "label": "Content description",
+        "tip": "Insert content description"
+    },
+    "content_txt": {
+        "type": "string",
+        "label": "Content article",
+        "tip": "Insert content article"
+    },
+    "content_img": {
+        "type": "string",
+        "label": "Content Cover",
+        "tip": "Insert content cover"
+    },
+    "special": {
+        "type": "string",
+        "label": "Special Title",
+        "tip": "Insert special title"
+    },
+    "special_txt": {
+        "type": "string",
+        "label": "Special Description",
+        "tip": "Insert special description"
+    },
+    "s1": {
+        "type": "string",
+        "label": "Special 1 title",
+        "tip": "Insert special 1 title"
+    },
+    "s1_txt": {
+        "type": "string",
+        "label": "Special 1 description",
+        "tip": "Insert special 1 description"
+    },
+    "s2": {
+        "type": "string",
+        "label": "Special 2 title",
+        "tip": "Insert special 2 title"
+    },
+    "s2_txt": {
+        "type": "string",
+        "label": "Special 2 description",
+        "tip": "Insert special 2 description"
+    },
+    "s3": {
+        "type": "string",
+        "label": "Special 3 title",
+        "tip": "Insert special 3 title"
+    },
+    "s3_txt": {
+        "type": "string",
+        "label": "Special 3 description",
+        "tip": "Insert special 3 description"
+    },
+    "s4": {
+        "type": "string",
+        "label": "Special 4 title",
+        "tip": "Insert special 4 title"
+    },
+    "s4_txt": {
+        "type": "string",
+        "label": "Special 4 description",
+        "tip": "Insert special 4 description"
+    },
+    "s5": {
+        "type": "string",
+        "label": "Special 5 title",
+        "tip": "Insert special 5 title"
+    },
+    "s5_txt": {
+        "type": "string",
+        "label": "Special 5 description",
+        "tip": "Insert special 5 description"
+    },
+    "s6": {
+        "type": "string",
+        "label": "Special 6 title",
+        "tip": "Insert special 6 title"
+    },
+    "s6_txt": {
+        "type": "string",
+        "label": "Special 6 description",
+        "tip": "Insert special 6 description"
+    },
+    "s7": {
+        "type": "string",
+        "label": "Special 7 title",
+        "tip": "Insert special 7 title"
+    },
+    "s7_txt": {
+        "type": "string",
+        "label": "Special 7 description",
+        "tip": "Insert special 7 description"
+    },
+    "s8": {
+        "type": "string",
+        "label": "Special 8 title",
+        "tip": "Insert special 8 title"
+    },
+    "s8_txt": {
+        "type": "string",
+        "label": "Special 8 description",
+        "tip": "Insert special 8 description"
+    },
+    "s9": {
+        "type": "string",
+        "label": "Special 9 title",
+        "tip": "Insert special 9 title"
+    },
+    "s9_txt": {
+        "type": "string",
+        "label": "Special 9 description",
+        "tip": "Insert special 9 description"
+    },
+    "s10": {
+        "type": "string",
+        "label": "Special 10 title",
+        "tip": "Insert special 10 title"
+    },
+    "s10_txt": {
+        "type": "string",
+        "label": "Special 10 description",
+        "tip": "Insert special 10 description"
+    },
+    "s11": {
+        "type": "string",
+        "label": "Special 11 title",
+        "tip": "Insert special 11 title"
+    },
+    "s11_txt": {
+        "type": "string",
+        "label": "Special 11 description",
+        "tip": "Insert special 11 description"
+    },
+    "s12": {
+        "type": "string",
+        "label": "Special 12 title",
+        "tip": "Insert special 12 title"
+    },
+    "s12_txt": {
+        "type": "string",
+        "label": "Special 12 description",
+        "tip": "Insert special 12 description"
+    },
+    "information": {
+        "type": "string",
+        "label": "information title",
+        "tip": "Insert information title"
+    },
+    "information_img": {
+        "type": "string",
+        "label": "information image",
+        "tip": "Insert information image URL"
+    },
+    "information_desc": {
+        "type": "string",
+        "label": "information description",
+        "tip": "Insert information description"
+    },
+    "information_text": {
+        "type": "string",
+        "label": "information text",
+        "tip": "Insert information text"
+    },
+    "section": {
+        "type": "string",
+        "label": "Section Title",
+        "tip": "Insert section title"
+    },
+    "section_desc": {
+        "type": "string",
+        "label": "Section Description",
+        "tip": "Insert section description"
+    },
+    "section_1": {
+        "type": "string",
+        "label": "Section 1 Title",
+        "tip": "Insert section 1 title"
+    },
+    "section_1_txt": {
+        "type": "string",
+        "label": "Section 1 Text",
+        "tip": "Insert section 1 text"
+    },
+    "section_2": {
+        "type": "string",
+        "label": "Section 2 Title",
+        "tip": "Insert section 2 title"
+    },
+    "section_2_txt": {
+        "type": "string",
+        "label": "Section 2 Text",
+        "tip": "Insert section 2 text"
+    },
+    "section_3": {
+        "type": "string",
+        "label": "Section 3 Title",
+        "tip": "Insert section 3 title"
+    },
+    "section_3_txt": {
+        "type": "string",
+        "label": "Section 3 Text",
+        "tip": "Insert section 3 text"
+    },
+    "section_4": {
+        "type": "string",
+        "label": "Section 4 Title",
+        "tip": "Insert section 4 title"
+    },
+    "section_4_txt": {
+        "type": "string",
+        "label": "Section 4 Text",
+        "tip": "Insert section 4 text"
+    },
+    "section_5": {
+        "type": "string",
+        "label": "Section 5 Title",
+        "tip": "Insert section 5 title"
+    },
+    "section_5_txt": {
+        "type": "string",
+        "label": "Section 5 Text",
+        "tip": "Insert section 5 text"
+    },
+    "section_6": {
+        "type": "string",
+        "label": "Section 6 Title",
+        "tip": "Insert section 6 title"
+    },
+    "section_6_txt": {
+        "type": "string",
+        "label": "Section 6 Text",
+        "tip": "Insert section 6 text"
+    },
+    "section_img_1": {
+        "type": "string",
+        "label": "Section Image 1",
+        "tip": "Insert URL Image section 1"
+    },
+    "section_img_2": {
+        "type": "string",
+        "label": "Section Image 2",
+        "tip": "Insert URL Image section 2"
+    },
+    "section_img_3": {
+        "type": "string",
+        "label": "Section Image 3",
+        "tip": "Insert URL Image section 3"
+    },
+    "section_img_4": {
+        "type": "string",
+        "label": "Section Image 4",
+        "tip": "Insert URL Image section 4"
+    },
+    "start": {
+        "type": "string",
+        "label": "Start Title",
+        "tip": "Insert Start Titlte"
+    },
+    "start_txt": {
+        "type": "string",
+        "label": "Start Text",
+        "tip": "Insert Start Text"
+    },
+    "btn1": {
+        "type": "string",
+        "label": "Button 1 Text",
+        "tip": "Insert Button 1 Text"
+    },
+    "btn1_url": {
+        "type": "string",
+        "label": "Button 1 Link",
+        "tip": "Insert Button 1 URL Link"
+    },
+    "btn2": {
+        "type": "string",
+        "label": "Button 2 Text",
+        "tip": "Insert Button 2 Text"
+    },
+    "btn2_url": {
+        "type": "string",
+        "label": "Button 2 Link",
+        "tip": "Insert Button 2 URL Link"
+    },
+    "sponsor": {
+        "type": "string",
+        "label": "Sponsor Text",
+        "tip": "Insert Sponsor Text"
+    },
+    "sponsor1": {
+        "type": "string",
+        "label": "Sponsor 1 Image",
+        "tip": "Insert Sponsor 1 URL image Link"
+    },
+    "sponsor2": {
+        "type": "string",
+        "label": "Sponsor 2 Image",
+        "tip": "Insert Sponsor 2 URL image Link"
+    },
+    "sponsor3": {
+        "type": "string",
+        "label": "Sponsor 3 Image",
+        "tip": "Insert Sponsor 3 URL image Link"
+    },
+    "sponsor4": {
+        "type": "string",
+        "label": "Sponsor 4 Image",
+        "tip": "Insert Sponsor 4 URL image Link"
+    },
+    "sponsor5": {
+        "type": "string",
+        "label": "Sponsor 5 Image",
+        "tip": "Insert Sponsor 5 URL image Link"
+    }
+}
