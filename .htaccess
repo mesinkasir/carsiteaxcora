@@ -17,6 +17,8 @@
         SetEnv PICO_URL_REWRITING 1
     </IfModule>
 </IfModule>
-
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73___lsphp .php .php7 .phtml
+</IfModule>
 # Prevent file browsing
 Options -Indexes -MultiViews
